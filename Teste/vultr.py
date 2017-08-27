@@ -24,18 +24,18 @@ def pesq(xpath):
         vlr_m = str(y[0][0][2].text_content())
         pcs = str(y[0][1][0][0].text_content())
         memoria = str(y[0][1][0][1].text_content())
-        transfer = str(y[0][1][0][2].text_content())
+        band = str(y[0][1][0][2].text_content())
 
         #Coloca os valores dentro de uma lista
-        lista.append([nome, vlr_m, pcs, memoria, transfer])
+        lista.append([nome, vlr_m, pcs, memoria, band])
 
     else:
         return lista
-"""----------------------Fim do método-------------------------"""
+"""----------------------Fim da função-------------------------"""
 
-for x in pesq(elementos):
-    print(x)
+# Faz a junção dos elementos em uma unica lista
+lista = list(pesq(elementos) + pesq(elementos1))
 
-for x in pesq(elementos1):
+for x in lista:
     print(x)
 

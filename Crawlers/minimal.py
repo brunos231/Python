@@ -1,12 +1,6 @@
-lista = []
 
-nome = "Bruno"
-idade = 21
+lista = [['a','b','c'],[1,2,3],['1a','2b','3c']]
 
-nome1 = "Carlos"
-idade1 = 30
-
-lista.append([nome, idade])
-lista.append([nome1, idade1])
+del(lista[0][-1], lista[1][-1])
 
 print(lista)
