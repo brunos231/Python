@@ -39,5 +39,8 @@ Sobre os scripts:
 Não fui capaz de adicionar as funções do Banco de Dados devido ao tempo do teste ter se esgotado, mas a opção de grardar as informações na tabela foi feita, as informações de cada site tem sua própria tabela que por sua vez é guardada no arquivo "base.bd".
 O arquivo "base.bd" é criado no local onde o script esta no momento da execução
 
+As mesmas informações e arquivos desta pasta estão tambem no meu Github:
+https://github.com/brunos231/Python/tree/master/Teste
+
 
 
