@@ -1,0 +1,43 @@
+Teste Digesto
+
+Bruno da Costa Silva
+brunocosta231@gmail.com
+
+-------------------------------------------------------------
+
+Sistema usado: Linux Ubuntu 
+Versão: 16.04 32-Bits
+
+Python
+Versão: 3.5.2
+
+IDE de Programação: PyCharm Community Edition
+Versão: 2017.2
+
+Comando de instalação do Python no Linux Ubuntu:
+sudo apt-get install python3.5 python3.5-dev idle-python3.5
+
+Como Instalar PyCharm: *Opcional
+http://pythonclub.com.br/instalando-pycharm-ubuntu.html
+
+--Bicliotecas do Python necessarias:
+Biblioteca lxml
+Versão: 3.4.2
+Instalação: sudo apt-get install python3-lxml
+
+Biblioteca Sqlite
+Versão: 3.11.0
+Instalação: 
+# apt-get install sqlite3
+# apt-get install libsqlite3-dev
+
+Para que os arquivos .py funcionem corretamente, as bibliotecas e a versão do python devem ser como as descritas acima.
+
+---------------------------------------------------------------
+
+Sobre os scripts:
+Não fui capaz de adicionar as funções do Banco de Dados devido ao tempo do teste ter se esgotado, mas a opção de grardar as informações na tabela foi feita, as informações de cada site tem sua própria tabela que por sua vez é guardada no arquivo "base.bd".
+O arquivo "base.bd" é criado no local onde o script esta no momento da execução
+
+
+
